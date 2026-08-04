@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.log
+*.zip
+*.pyc
+fine_tuned_sentiment_model/
+results/
+logs/
+model.safetensors

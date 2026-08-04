@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: 0BSD
 # Author: Lasse Collin
 
-prefix=O:/downloads/L6ZS74QjSrKFeZZePDaI_Car_prediction/Car_prediction/venv/Library
+prefix=O:/ITOL_AI_Engineering/Car_price_regression_model/venv/Library
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

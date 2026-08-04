@@ -1,5 +1,5 @@
-prefix=O:/downloads/L6ZS74QjSrKFeZZePDaI_Car_prediction/Car_prediction/venv/Library
-exec_prefix=O:/downloads/L6ZS74QjSrKFeZZePDaI_Car_prediction/Car_prediction/venv/Library
+prefix=O:/ITOL_AI_Engineering/Car_price_regression_model/venv/Library
+exec_prefix=O:/ITOL_AI_Engineering/Car_price_regression_model/venv/Library
 libdir=${exec_prefix}/lib
 sharedlibdir=${exec_prefix}/lib
 includedir=${exec_prefix}/include
