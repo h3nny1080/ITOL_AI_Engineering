@@ -205,7 +205,7 @@
         "path_type": "hardlink",
         "sha256": "4f9da60663a0b0f92e6a5f11fcab638625d12df828fa6f0ad28a82c335817cf1",
         "size_in_bytes": 7367,
-        "sha256_in_prefix": "7a2034feaa182de999893996cfeee4161455024aad8f79fe4ce889c03a526bcc"
+        "sha256_in_prefix": "77c895c1e98fe0f8f6099a760247ee14c9da5cf351c17db3f7a285cac2aae088"
       },
       {
         "_path": "Library/bin/libcrypto-3-x64.dll",
@@ -1307,7 +1307,7 @@
         "path_type": "hardlink",
         "sha256": "be0c82d609c66dcfad06b1c4fd76de82c422e185bf289cb6be2254c00f37a250",
         "size_in_bytes": 343,
-        "sha256_in_prefix": "10b64db5e21d85a863a43da29d42ef9999af77f5f348110e0a64adcb84c3779a"
+        "sha256_in_prefix": "8803876b9f2e3db5f34ab45246d40f37ab63b2db2ac24f9949e38b8854b5d9f3"
       },
       {
         "_path": "Library/lib/pkgconfig/libssl.pc",
@@ -1316,7 +1316,7 @@
         "path_type": "hardlink",
         "sha256": "981e0d8aa5819133405b3b65e8826f6a2b776e0ba536a4ce7414e2e8b85c2d53",
         "size_in_bytes": 343,
-        "sha256_in_prefix": "3226cc5bff48cfab3fc8031cf9abbb66b2ef613d6b27f3b028ce1505b3b60a2c"
+        "sha256_in_prefix": "b2c67a1bac44c7357fcae0703af4dc4568843e7e79a082205572b9cdd8e7fe0d"
       },
       {
         "_path": "Library/lib/pkgconfig/openssl.pc",
@@ -1325,7 +1325,7 @@
         "path_type": "hardlink",
         "sha256": "9e039b938155f13d56ac723584322cf60524215083dc4d9ebbaa70dd671aa845",
         "size_in_bytes": 296,
-        "sha256_in_prefix": "d4677e091efd9399015d77a666cfb673368f49d0f949f2afd4f3a568f5d8ecf5"
+        "sha256_in_prefix": "8abb5f307dacb5098a456121c231d0a4f85ff2571d28bcb8503d22e88cd6029b"
       },
       {
         "_path": "Library/ssl/ct_log_list.cnf",
