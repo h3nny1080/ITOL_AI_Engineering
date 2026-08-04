@@ -1,5 +1,6 @@
 import streamlit as st
-from transformers import pipeline
+import os
+from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
 
 # Page config
 st.set_page_config(
@@ -11,8 +12,19 @@ st.set_page_config(
 # Load model (with caching so it only loads once)
 @st.cache_resource
 def load_model():
-    return pipeline("sentiment-analysis",
-                      model="distilbert-base-uncased-finetuned-sst-2-english")									
+    # Path to your extracted fine-tuned model
+    MODEL_PATH = os.getenv("MODEL_PATH")  # Update this path!
+
+    # Load the model
+    print("Loading fine-tuned model...")
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
+
+    # Create pipeline with your fine-tuned model
+    classifier = pipeline("sentiment-analysis",
+                        model=model,
+                        tokenizer=tokenizer)
+    return classifier								
 classifier = load_model()
 
 # Title and description

@@ -1,7 +1,8 @@
 from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
+import os
 
 # Path to your extracted fine-tuned model
-MODEL_PATH = "./fine_tuned_sentiment_model"  # Update this path!
+MODEL_PATH = os.getenv("MODEL_PATH")  # Update this path!
 
 # Load the model
 print("Loading fine-tuned model...")
